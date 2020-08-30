@@ -15,7 +15,7 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 @RestController
 public class CurrencyRestController {
     private CurrencyService currencyService;
